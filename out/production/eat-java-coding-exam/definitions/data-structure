@@ -1,0 +1,64 @@
+Please answer the below Data Structure Questions:
+
+Q. why do we need data structure?
+A. Data structure provides a way of organizing, managing, and storing data efficiently. With the help of data structure,
+   the data items can be traversed easily. Data structure provides efficiency, reusability and abstraction.
+------------------------------------------------------------------------------------------------------------------------
+Q. What are the various operations that can be performed on different Data Structures?
+A. Operations performed on data structure:-1)Create. 2)Destroy. 3)Traversal:-Accessing a particular data.
+   4)Updation:-It updates or modifies the data.
+------------------------------------------------------------------------------------------------------------------------
+Q. List out the areas in which data structures are applied extensively?
+A. Areas where data structures are applied extensively:
+   - Compiler Design,
+   - Operating System,
+   - Database Management System,
+   - Statistical analysis package,
+   - Numerical Analysis,
+   - Graphics,
+   - Artificial Intelligence,
+   - and Simulation.
+------------------------------------------------------------------------------------------------------------------------
+Q. What is an Array?
+A. An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the
+   same type together.
+------------------------------------------------------------------------------------------------------------------------
+Q. What is the difference between the Array and ArrayList?
+A. An array is a fixed-length data structure. ArrayList is a variable-length data structure. It can be resized itself
+   when needed. It is mandatory to provide the size of an array while initializing it directly or indirectly.
+------------------------------------------------------------------------------------------------------------------------
+Q. What is LinkedList?
+A. A linked list is a sequence of data structures, which are connected together via links. Linked List is a sequence of
+   links which contains items. Each link contains a connection to another link. Linked list is the second most-used data
+   structure after array.
+------------------------------------------------------------------------------------------------------------------------
+Q. How is an ArrayList different from Linked List?
+A. 1) ArrayList internally uses a dynamic array to store the elements. LinkedList internally uses a doubly linked list
+   to store the elements.
+   2) Manipulation with ArrayList is slow because it internally uses an array. If any element is removed from the array,
+   all the other elements are shifted in memory.
+------------------------------------------------------------------------------------------------------------------------
+Q. What is the difference between the HashTable and HashMap?
+A. HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value. HashMap
+   is generally preferred over HashTable if thread synchronization is not needed.
+------------------------------------------------------------------------------------------------------------------------
+Q. What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model?
+A. RDBMS = Array (i.e. Array of structures)
+   Network data model = Graph
+   Hierarchical data model = Trees
+------------------------------------------------------------------------------------------------------------------------
+Q. How HashMap works in java?
+A. HashMap uses multiple buckets and each bucket points to a Singly Linked List where the entries (nodes) are stored.
+   Once the bucket is identified by the hash function using hashcode, then hashCode is used to check if there is already
+   a key with the same hashCode or not in the bucket(singly linked list).
+------------------------------------------------------------------------------------------------------------------------
+Q. What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A. ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, that is backed by an array with an
+   invalid index. This means that the index is either less than zero or greater than or equal to the size of the array.
+------------------------------------------------------------------------------------------------------------------------
+Q. What are the different ways of copying an array into another array?
+A. There are mainly four different ways to copy all elements of one array into another array in Java.
+   - Manually.
+   - Arrays.copyOf()
+   - System.arraycopy()
+   - Object.clone()
